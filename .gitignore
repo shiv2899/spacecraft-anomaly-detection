@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual env - NEVER push this, ye 500MB+ ka hai
+venv/
+.venv/
+env/
+
+# Data - bahut bada hai, Kaggle se download hoga (data/README dekho)
+data/
+*.npy
+
+# Model checkpoints - bahut bade hain
+checkpoints/
+*.pth
+*.pt
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+*.log
