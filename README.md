@@ -41,7 +41,7 @@ Full per-channel results in `results/per_channel.csv`.
 
 ```bash
 # 1. Clone
-git clone https://github.com/<your-username>/spacecraft-anomaly-detection.git
+git clone https://github.com/shiv2899/spacecraft-anomaly-detection.git
 cd spacecraft-anomaly-detection
 
 # 2. Env
