@@ -54,7 +54,7 @@ pip install -r requirements.txt
 # Dataset: NASA Anomaly Detection Dataset SMAP & MSL
 
 # 4. Train on 1 channel (fast test)
-python src/train.py --chan_id P-1 --epochs 30
+PYTHONPATH=src python src/train.py --chan_id P-1 --epochs 30
 
 # 5. Train all 82 channels
 PYTHONPATH=src python src/train_all.py --epochs 50
@@ -63,7 +63,7 @@ PYTHONPATH=src python src/train_all.py --epochs 50
 PYTHONPATH=src python src/evaluate.py --results_dir results/
 
 # 7. Plot
-python src/plot_results.py --chan_id P-1
+PYTHONPATH=src python src/plot_results.py --chan_id P-1
 ```
 
 ## Project Structure
