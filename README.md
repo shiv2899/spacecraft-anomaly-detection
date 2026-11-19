@@ -24,7 +24,7 @@ Evaluated on **66 channels**. 17 channels with very short train files were skipp
 
 **What this means:** Our LSTM is **10x more precise** than the Z-score baseline (0.689 vs 0.068). Recall is lower than the paper because 17 short channels were skipped and we trained for 50 epochs on CPU. The LSTM still catches real anomalies with very few false alarms, which is what matters for spacecraft - a false alarm can waste a whole downlink pass.
 
-[P-1 Anomaly Detection](results_P-1.png)
+![P-1 Anomaly Detection](results_P-1.png)
 *P-1 channel: Blue = true telemetry, Orange = LSTM prediction, Red bands = true anomalies. Where prediction diverges, anomaly is flagged.*
 
 Full per-channel results in `results/per_channel.csv`.
